@@ -18,7 +18,7 @@ Repositório de referência para desenvolvedores iniciantes, conseguirem rapidam
    2. Crie uma nova **New Repository Secret**, defina um nome para sua secret, cole o código do **publish profile** no campo abaixo do nome e salve;
    3. Copie o arquivo **CI/CD** desse repositório;
    4. Navegue até a aba **Actions** do github no seu projeto, selecione a opção **set up a workflow yourself** e cole o código copiado no passo anterior; 
-   5. Altere o valor da *env*  **AZURE_WEBAPP_NAME** para o mesmo nome que foi criado o web app no azure (passo 1.3);
+   5. Altere o valor da *env*  **AZURE_WEBAPP_NAME** para o mesmo nome que foi criado o web app no azure (passo 1.iii);
    6. Substitua o nome da solução nas linhas **26, 29, 32**, para o nome da sua própria solução;
 4. **Commit e mágica**
    1. Após alterações realizadas, faça **commit** e veja mágica acontecer
