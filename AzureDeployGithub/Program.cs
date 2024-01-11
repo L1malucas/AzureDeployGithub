@@ -8,6 +8,8 @@ var app = builder.Build();
 app.UseSwagger();
 app.UseSwaggerUI();
 
+
+
 // GET UTC
 app.MapGet("time/utc", () => Results.Ok(DateTime.UtcNow));
 
